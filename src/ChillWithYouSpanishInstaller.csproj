@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>ChillWithYou_ESLatam_Instalador</AssemblyName>
+    <RootNamespace>ChillWithYouSpanishInstaller</RootNamespace>
+    <Authors>Susumi</Authors>
+    <Company>Susumi</Company>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Mono.Cecil" Version="0.11.6" />
+  </ItemGroup>
+  <!-- La compilación distribuida añade como recursos la imagen y la tabla de traducción privadas. -->
+</Project>

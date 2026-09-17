@@ -1,0 +1,7 @@
+bin/
+obj/
+*.user
+*.pdb
+Assets/
+Translations/
+ChillWithYou_ESLatam_Instalador.exe
